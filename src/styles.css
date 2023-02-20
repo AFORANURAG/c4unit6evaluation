@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+.counterbtn1{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 50px;
+/* border: 1px solid #ccc; */
+background-color: black;
+    color: white;
+}
+
+.counterbtn2{
+   font-size: large;
+   font-family: Arial, Helvetica, sans-serif;
+    margin-top: 140px;
+    margin-left: 50%;
+    margin-right: 25%;
+    padding: 10px;
+    position: relative;
+    bottom: 185px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    }
+ .counterbtn1:hover{
+cursor: pointer;
+transition: 1s;
+transform: scale(1.2)
+ }   
+ .counterbtn2:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.2)
+     }   
